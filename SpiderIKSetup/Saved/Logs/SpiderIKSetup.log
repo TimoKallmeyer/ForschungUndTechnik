@@ -1171,3 +1171,149 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.12.13-15.54.54:354][863]LogContentValidation: Display: Validating Texture2D /Game/Materials/Textures/SpiderUV_SpiderMat_Normal.SpiderUV_SpiderMat_Normal
 [2020.12.13-15.54.54:354][863]LogContentValidation: Display: Validating Texture2D /Game/Materials/Textures/SpiderUV_SpiderMat_OcclusionRoughnessMetallic.SpiderUV_SpiderMat_OcclusionRoughnessMetallic
 [2020.12.13-15.55.14:174][250]LogSlate: Window 'Color Picker' being destroyed
+[2020.12.13-15.58.35:531][542]LogLinker: Warning: [AssetLog] C:\GitRepo\ForschungUndTechnik\SpiderIKSetup\Content\Startup\ThirdPersonExampleMap.umap: Failed to load '/Game/Meshes/SpiderBasePose': Can't find file.
+[2020.12.13-15.58.35:532][542]LogLinker: Warning: [AssetLog] C:\GitRepo\ForschungUndTechnik\SpiderIKSetup\Content\Startup\ThirdPersonExampleMap.umap: Failed to load '/Game/Meshes/SpiderBasePose': Can't find file.
+[2020.12.13-15.58.35:711][542]LogLinker: Warning: [AssetLog] C:\GitRepo\ForschungUndTechnik\SpiderIKSetup\Content\Startup\ThirdPersonExampleMap.umap: Failed to load '/Game/Meshes/SpiderBasePose': Can't find file.
+[2020.12.13-15.58.35:725][542]LogLinker: Warning: Failed to load '/Game/Meshes/SpiderBasePose': Can't find file.
+[2020.12.13-15.58.35:725][542]LogLinker: Warning: Failed to load '/Game/Meshes/SpiderBasePose': Can't find file.
+[2020.12.13-15.58.35:745][542]LogLinker: Warning: [AssetLog] C:\GitRepo\ForschungUndTechnik\SpiderIKSetup\Content\Startup\ThirdPersonExampleMap.umap: Failed to load '/Game/Meshes/SpiderBasePose': Can't find file.
+[2020.12.13-15.58.35:745][542]LoadErrors: Failed to load /Game/Meshes/SpiderBasePose.SpiderBasePose Referenced by Spider_5
+[2020.12.13-15.58.35:776][542]LogStaticMesh: Building static mesh TemplateFloor...
+[2020.12.13-15.58.35:826][542]LogStaticMesh: Built static mesh [0.05s] /Game/Startup/Geometry/Meshes/TemplateFloor.TemplateFloor
+[2020.12.13-15.58.35:847][542]LogStaticMesh: Building static mesh LeftArm_StaticMesh...
+[2020.12.13-15.58.35:878][542]LogStaticMesh: Built static mesh [0.03s] /Game/Startup/ThirdPerson/Meshes/LeftArm_StaticMesh.LeftArm_StaticMesh
+[2020.12.13-15.58.35:903][542]LogStaticMesh: Building static mesh Ramp_StaticMesh...
+[2020.12.13-15.58.35:940][542]LogStaticMesh: Built static mesh [0.04s] /Game/Startup/ThirdPerson/Meshes/Ramp_StaticMesh.Ramp_StaticMesh
+[2020.12.13-15.58.35:964][542]LogStaticMesh: Building static mesh RightArm_StaticMesh...
+[2020.12.13-15.58.35:996][542]LogStaticMesh: Built static mesh [0.03s] /Game/Startup/ThirdPerson/Meshes/RightArm_StaticMesh.RightArm_StaticMesh
+[2020.12.13-15.58.38:970][719]LogMetaData: Removing '/Game/ThirdPersonExampleMap.ThirdPersonExampleMap_C' ref from Metadata '/Game/Startup/ThirdPersonExampleMap.PackageMetaData'
+[2020.12.13-15.58.38:970][719]LogMetaData: Removing '/Game/ThirdPersonExampleMap.SKEL_ThirdPersonExampleMap_C' ref from Metadata '/Game/Startup/ThirdPersonExampleMap.PackageMetaData'
+[2020.12.13-15.58.39:013][719]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonExampleMap_BuiltData" FILE="../../../../../../GitRepo/ForschungUndTechnik/SpiderIKSetup/Content/ThirdPersonExampleMap_BuiltData.uasset" SILENT=true
+[2020.12.13-15.58.39:125][719]LogSavePackage: Moving '../../../../../../GitRepo/ForschungUndTechnik/SpiderIKSetup/Saved/ThirdPersonExampleMap_BuiltData1459AB7E41223949F1127B9951F4AA30.tmp' to '../../../../../../GitRepo/ForschungUndTechnik/SpiderIKSetup/Content/ThirdPersonExampleMap_BuiltData.uasset'
+[2020.12.13-15.58.39:282][719]LogUObjectHash: Compacting FUObjectHashTables data took   6.16ms
+[2020.12.13-15.58.39:335][719]LogSavePackage: Moving '../../../../../../GitRepo/ForschungUndTechnik/SpiderIKSetup/Saved/ThirdPersonExampleMapA48ACF8F496724BE8CF5419D8A37482D.tmp' to '../../../../../../GitRepo/ForschungUndTechnik/SpiderIKSetup/Content/ThirdPersonExampleMap.umap'
+[2020.12.13-15.58.39:341][719]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.215
+[2020.12.13-15.58.39:474][719]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2020.12.13-15.58.39:499][719]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2020.12.13-15.58.39:537][719]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2020.12.13-15.58.39:562][719]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2020.12.13-15.58.39:615][719]AssetCheck: New page: Asset Save: multiple assets
+[2020.12.13-15.58.39:616][719]LogContentValidation: Display: Validating World /Game/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.12.13-15.58.39:616][719]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2020.12.13-15.58.50:065][450]LogMetaData: Removing '/Game/MainMap.MainMap_C' ref from Metadata '/Game/ThirdPersonExampleMap.PackageMetaData'
+[2020.12.13-15.58.50:065][450]LogMetaData: Removing '/Game/MainMap.SKEL_MainMap_C' ref from Metadata '/Game/ThirdPersonExampleMap.PackageMetaData'
+[2020.12.13-15.58.50:109][450]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMap_BuiltData" FILE="../../../../../../GitRepo/ForschungUndTechnik/SpiderIKSetup/Content/MainMap_BuiltData.uasset" SILENT=true
+[2020.12.13-15.58.50:218][450]LogSavePackage: Moving '../../../../../../GitRepo/ForschungUndTechnik/SpiderIKSetup/Saved/MainMap_BuiltData69C5D2104E0BAC2CA181C797856E0B1E.tmp' to '../../../../../../GitRepo/ForschungUndTechnik/SpiderIKSetup/Content/MainMap_BuiltData.uasset'
+[2020.12.13-15.58.50:219][450]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMap" FILE="../../../../../../GitRepo/ForschungUndTechnik/SpiderIKSetup/Content/MainMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.12.13-15.58.50:320][450]LogUObjectHash: Compacting FUObjectHashTables data took   4.35ms
+[2020.12.13-15.58.50:352][450]LogSavePackage: Moving '../../../../../../GitRepo/ForschungUndTechnik/SpiderIKSetup/Saved/MainMap23D9D1AF4A2389F7EFCED78F4D7960D8.tmp' to '../../../../../../GitRepo/ForschungUndTechnik/SpiderIKSetup/Content/MainMap.umap'
+[2020.12.13-15.58.50:356][450]LogFileHelpers: Saving map 'MainMap' took 0.137
+[2020.12.13-15.58.50:516][450]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2020.12.13-15.58.50:534][450]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2020.12.13-15.58.50:567][450]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2020.12.13-15.58.50:587][450]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2020.12.13-15.58.50:616][450]AssetCheck: New page: Asset Save: multiple assets
+[2020.12.13-15.58.50:616][450]LogContentValidation: Display: Validating World /Game/MainMap.MainMap
+[2020.12.13-15.58.50:616][450]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/MainMap_BuiltData.MainMap_BuiltData
+[2020.12.13-16.07.11:737][783]LogUObjectHash: Compacting FUObjectHashTables data took   3.76ms
+[2020.12.13-16.07.11:775][783]LogAssetEditorSubsystem: Opening Asset editor for World /Game/MainMap.MainMap
+[2020.12.13-16.07.11:776][783]Cmd: MAP LOAD FILE="../../../../../../GitRepo/ForschungUndTechnik/SpiderIKSetup/Content/MainMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.12.13-16.07.11:776][783]LightingResults: New page: Lighting Build
+[2020.12.13-16.07.11:781][783]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'StatsViewer' in 0.0007 seconds. Added 6 classes and 0 folders.
+[2020.12.13-16.07.11:782][783]LoadErrors: New page: Loading map: MainMap.umap
+[2020.12.13-16.07.11:817][783]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.12.13-16.07.11:819][783]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.13-16.07.11:820][783]MapCheck: New page: Map Check
+[2020.12.13-16.07.11:820][783]LightingResults: New page: Lighting Build
+[2020.12.13-16.07.11:851][783]LogUObjectHash: Compacting FUObjectHashTables data took   3.54ms
+[2020.12.13-16.07.11:852][783]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMap'.
+[2020.12.13-16.07.11:866][783]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.12.13-16.07.11:866][783]LogAIModule: Creating AISystem for world MainMap
+[2020.12.13-16.07.11:903][783]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2020.12.13-16.07.11:923][783]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.12.13-16.07.11:924][783]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,823ms to complete.
+[2020.12.13-16.07.11:924][783]LogFileHelpers: Loading map 'MainMap' took 0.149
+[2020.12.13-16.07.33:168][361]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2020.12.13-16.07.37:089][624]Cmd: DELETE
+[2020.12.13-16.07.37:090][624]Cmd: ACTOR DELETE
+[2020.12.13-16.07.37:108][624]LogEditorActor: Deleted Actor: TextRenderActor
+[2020.12.13-16.07.37:238][624]LogUObjectHash: Compacting FUObjectHashTables data took   6.38ms
+[2020.12.13-16.07.37:241][624]LogEditorActor: Deleted 1 Actors (0.136 secs)
+[2020.12.13-16.07.43:444][ 96]LogTemp: Repeating last play command: Selected Viewport
+[2020.12.13-16.07.43:471][ 96]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.12.13-16.07.43:472][ 96]LogPlayLevel: [PlayLevel] Compiling PROTO_BP_ControlRigBlueprint_0 before play...
+[2020.12.13-16.07.43:545][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2020.12.13-16.07.43:547][ 96]LogPlayLevel: PlayLevel: Blueprint regeneration took 75 ms (1 blueprints)
+[2020.12.13-16.07.43:550][ 96]PIE: New page: PIE session: MainMap (13 Dec 2020, 18:07:43)
+[2020.12.13-16.07.43:561][ 96]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.12.13-16.07.43:565][ 96]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.12.13-16.07.43:567][ 96]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMap
+[2020.12.13-16.07.43:587][ 96]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020004s)
+[2020.12.13-16.07.43:590][ 96]LogAIModule: Creating AISystem for world MainMap
+[2020.12.13-16.07.43:591][ 96]LogPlayLevel: PIE: World Init took: (0.002954s)
+[2020.12.13-16.07.43:591][ 96]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMap.MainMap to /Game/UEDPIE_0_MainMap.MainMap (0.024239s)
+[2020.12.13-16.07.43:617][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2020.12.13-16.07.43:619][ 96]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2020.12.13-16.07.43:620][ 96]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.13-16.07.43:620][ 96]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.13-16.07.43:620][ 96]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.13-16.07.43:620][ 96]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.13-16.07.43:620][ 96]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.13-16.07.43:620][ 96]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.13-16.07.43:620][ 96]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.13-16.07.43:620][ 96]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.13-16.07.43:622][ 96]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.13-16.07.43:622][ 96]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.13-16.07.43:631][ 96]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.13-16.07.43:631][ 96]LogAudioMixer: Display: 1: FrontRight
+[2020.12.13-16.07.43:631][ 96]LogAudioMixer: Display: 2: FrontCenter
+[2020.12.13-16.07.43:631][ 96]LogAudioMixer: Display: 3: LowFrequency
+[2020.12.13-16.07.43:631][ 96]LogAudioMixer: Display: 4: BackLeft
+[2020.12.13-16.07.43:631][ 96]LogAudioMixer: Display: 5: BackRight
+[2020.12.13-16.07.43:631][ 96]LogAudioMixer: Display: 6: SideLeft
+[2020.12.13-16.07.43:631][ 96]LogAudioMixer: Display: 7: SideRight
+[2020.12.13-16.07.43:693][ 96]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.12.13-16.07.43:695][ 96]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.13-16.07.43:695][ 96]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.13-16.07.43:695][ 96]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.13-16.07.43:697][ 96]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.13-16.07.43:697][ 96]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2020.12.13-16.07.43:697][ 96]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2020.12.13-16.07.43:713][ 96]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2020.12.13-16.07.43:713][ 96]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2020.12.13-16.07.43:713][ 96]LogInit: FAudioDevice initialized.
+[2020.12.13-16.07.43:713][ 96]LogAudio: Display: Audio Device (ID: 2) registered with world 'MainMap'.
+[2020.12.13-16.07.43:733][ 96]LogLinker: Warning: Failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode': Can't find file.
+[2020.12.13-16.07.43:733][ 96]LogLinker: Warning: Failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode': Can't find file.
+[2020.12.13-16.07.43:733][ 96]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C'
+[2020.12.13-16.07.43:733][ 96]LogLoad: Game class is 'GameModeBase'
+[2020.12.13-16.07.43:736][ 96]LogWorld: Bringing World /Game/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2020.12.13-17.07.43
+[2020.12.13-16.07.43:739][ 96]LogWorld: Bringing up level for play took: 0.004484
+[2020.12.13-16.07.43:740][ 96]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2020.12.13-16.07.43:759][ 96]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 20 classes and 0 folders.
+[2020.12.13-16.07.43:763][ 96]PIE: Server logged in
+[2020.12.13-16.07.43:765][ 96]PIE: Play in editor total start time 0,298 seconds.
+[2020.12.13-16.09.03:202][ 67]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.13-16.09.03:202][ 67]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainMap
+[2020.12.13-16.09.03:203][ 67]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2020.12.13-16.09.03:204][ 67]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.13-16.09.03:221][ 67]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.12.13-16.09.03:227][ 67]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.13-16.09.03:261][ 67]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.13-16.09.03:264][ 67]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2020.12.13-16.09.03:265][ 67]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2020.12.13-16.09.03:345][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   4.24ms
+[2020.12.13-16.09.03:373][ 68]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2020.12.13-16.09.12:452][760]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2020.12.13-16.09.18:247][122]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2020.12.13-16.09.19:539][208]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Linear_Stair_StaticMesh)
+[2020.12.13-16.09.32:569][ 70]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2020.12.13-16.09.46:965][ 21]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2020.12.13-16.09.52:804][346]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMap" FILE="../../../../../../GitRepo/ForschungUndTechnik/SpiderIKSetup/Content/MainMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.12.13-16.09.52:833][346]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2020.12.13-16.09.52:866][346]LogSavePackage: Moving '../../../../../../GitRepo/ForschungUndTechnik/SpiderIKSetup/Saved/MainMapC9C27A82408C5EAA52A39C90D0A36F5B.tmp' to '../../../../../../GitRepo/ForschungUndTechnik/SpiderIKSetup/Content/MainMap.umap'
+[2020.12.13-16.09.52:894][346]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMap_BuiltData" FILE="../../../../../../GitRepo/ForschungUndTechnik/SpiderIKSetup/Content/MainMap_BuiltData.uasset" SILENT=true
+[2020.12.13-16.09.53:010][346]LogSavePackage: Moving '../../../../../../GitRepo/ForschungUndTechnik/SpiderIKSetup/Saved/MainMap_BuiltData7203F81E4737242AB77F679337D47774.tmp' to '../../../../../../GitRepo/ForschungUndTechnik/SpiderIKSetup/Content/MainMap_BuiltData.uasset'
+[2020.12.13-16.09.53:035][346]AssetCheck: New page: Asset Save: multiple assets
+[2020.12.13-16.09.53:035][346]LogContentValidation: Display: Validating World /Game/MainMap.MainMap
+[2020.12.13-16.09.53:035][346]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/MainMap_BuiltData.MainMap_BuiltData
